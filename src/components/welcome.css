@@ -1,0 +1,25 @@
+/* Container Styling */
+.welcome-container {
+  position: relative;
+}
+
+/* SVG Handwriting Effect */
+.signature-svg {
+  width: 800px; /* Adjust width as needed */
+  height: auto;
+  stroke: white;
+  stroke-width: 2;
+  fill: none
+}
+
+/* Text Fade-in Effect */
+.fade-text {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-text.visible {
+  opacity: 1;
+}
+
+
